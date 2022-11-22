@@ -9,7 +9,7 @@
 
 <!--  Define your beans below -->
    <bean id="myCoach"
-    class="com.claytonpereira.springDemo.TrackCoach" >
+    class="com.claytonpereira.springDemo.BaseBallCoach" >
    </bean>
 </beans>
 
