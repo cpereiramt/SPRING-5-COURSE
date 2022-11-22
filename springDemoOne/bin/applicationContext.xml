@@ -11,6 +11,10 @@
    <bean id="myCoach"
     class="com.claytonpereira.springDemo.BaseBallCoach" >
    </bean>
+   <bean id="myLoggerConfig" class="com.claytonpereira.springDemo.MyLoggerConfig" init-method="initLogger">
+      <property name="rootLoggerLevel" value="FINEST"/>
+      <property name="printedLoggerLevel" value="FINEST"/>
+   </bean>
 </beans>
 
 
