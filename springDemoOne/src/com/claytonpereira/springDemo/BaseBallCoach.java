@@ -7,4 +7,9 @@ public class BaseBallCoach implements Coach {
 		return "Spend 30 minutes on batting pratice";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		return null;
+	}
+
 }
